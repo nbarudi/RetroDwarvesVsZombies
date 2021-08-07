@@ -1,0 +1,19 @@
+name: DwarvesVsZombies
+version: 1.0
+main: me.nbarudi.main.RDvZ
+commands:
+  releasemonsters:
+    usage: /releasemonsters
+    permission: rdvz.admin
+  startgame:
+    usage: /startgame
+    permission: rdvz.admin
+  setup:
+    usage: /setup <dwarf/monster/spawn>
+    permission: rdvz.admin
+  admin:
+    usage: /admin <classes/potions/...>
+    permission: rdvz.admin
+  becomedragon:
+    usage: /becomedragon
+    permission: rdvz.admin
